@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Задача 1");
+        System.out.println(" Задача 1");
         int[] arr = new int[3];
         arr[0] = 1;
         arr[1] = 2;
@@ -20,7 +20,7 @@ public class Main {
             System.out.println(abc[a]);
         }
 
-        System.out.println("Задача 2");
+        System.out.println(" Задача 2");
         for (int i = 0; i < 3; i++) {
             System.out.print(arr[i]);
             for (; i < 2;){
@@ -46,7 +46,7 @@ public class Main {
         }
         System.out.println();
 
-        System.out.println("Задача 3");
+        System.out.println(" Задача 3");
         for (int i = 2; i >= 0; i--) {
             System.out.print(arr[i]);
             for (; i > 0;){
@@ -72,7 +72,7 @@ public class Main {
         }
         System.out.println();
 
-        System.out.println("Задача 4");
+        System.out.println(" Задача 4");
         for (int i = 0; i < 3; i++) {
             if (arr[i] % 2 == 1){
                 arr[i] = arr[i] + 1;
